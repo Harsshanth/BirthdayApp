@@ -45,12 +45,7 @@ class Poem extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Text(
-                          "Kai kunathalai nakutha"
-                          "kaan imai kal naduve"
-                          "Una ithala kal siripu"
-                          "kaan kalilu muna nokum neram "
-                          "unai unara vekkum nodi pothum "
-                          "Ithaiyumamu pada padakum Una ithalin siripu kanna",
+                          "Message that you want express",
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
