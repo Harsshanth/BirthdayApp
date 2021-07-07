@@ -6,7 +6,7 @@ class Poem extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: DefaultTabController(
-        length: 3,
+        length: 2,
         child: Scaffold(
           backgroundColor: Colors.white,
           appBar: AppBar(
@@ -20,7 +20,6 @@ class Poem extends StatelessWidget {
                 Tab(
                   text: 'Memories',
                 ),
-                Tab(text: 'He'),
               ],
             ),
             centerTitle: true,
@@ -45,7 +44,7 @@ class Poem extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.center,
                       children: [
                         Text(
-                          "Message that you want express",
+                          "I hope Ur Birthday is as sweet as the cake. And the year . And the year to follow is filled with as much joy as you bring ur friends",
                           style: TextStyle(
                               fontSize: 20,
                               fontWeight: FontWeight.bold,
@@ -53,34 +52,6 @@ class Poem extends StatelessWidget {
                         )
                       ],
                     ),
-                  ),
-                ),
-              ),
-              Padding(
-                padding: const EdgeInsets.only(
-                    left: 16.0, right: 16, top: 36, bottom: 36),
-                child: Card(
-                  elevation: 10,
-                  shadowColor: Colors.blueAccent,
-                  child: ListView(
-                    children: [
-                      Image(
-                        image: AssetImage("image/image1.jpg"),
-                        fit: BoxFit.fitWidth,
-                      ),
-                      Image(
-                        image: AssetImage("image/image2.jpg"),
-                        fit: BoxFit.fitWidth,
-                      ),
-                      Image(
-                        image: AssetImage("image/image3.jpg"),
-                        fit: BoxFit.fitWidth,
-                      ),
-                      Image(
-                        image: AssetImage("image/image4.jpg"),
-                        fit: BoxFit.fitWidth,
-                      ),
-                    ],
                   ),
                 ),
               ),
